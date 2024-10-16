@@ -1,3 +1,7 @@
+# Youtube links
+   - https://youtu.be/O3M5Ckbk-zo
+   - https://youtu.be/ncbt8rNZRXk 
+
 # Proyecto: Algoritmo de Bellman-Ford y Generación de Tablas Visuales
 
 Este proyecto usa el algoritmo de Bellman-Ford para encontrar la distancia más corta en un grafo dirigido, incluso si hay pesos negativos. También crea imágenes que muestran cómo se calcula la distancia y quiénes son los nodos anteriores en cada paso.
