@@ -2,7 +2,6 @@
 #include <vector>   // Biblioteca para usar vectores
 #include <fstream>  // Biblioteca para trabajar con archivos
 #include <climits> // Biblioteca para usar valores de límites, como INT_MAX
-#include <set>      // Biblioteca para usar conjuntos, aunque no se utiliza aquí
 #include <filesystem> // Biblioteca para manejar rutas y archivos en el sistema
 
 #ifdef _WIN32
