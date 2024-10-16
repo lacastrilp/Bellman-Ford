@@ -40,32 +40,10 @@ El proyecto consta de dos componentes principales:
 ### Paso 1: Compilar y Ejecutar el Código en C++
 
 1. Compila el archivo `main.cpp`:
-   ```bash
-   g++ main.cpp -o bellmanford
-   ```
-2. Ejecuta el programa:
-   ```bash
-   ./bellmanford
-   ```
    El programa pedirá el nodo de origen para ejecutar Bellman-Ford. Tras la ejecución, se generará:
    - Un archivo `.dot` y su correspondiente imagen `.png` con el grafo.
    - Archivos CSV con el estado de la tabla de distancias y predecesores en cada iteración.
-
-### Paso 2: Generar Imágenes de Tablas con Python
-
-1. Ejecuta el script de Python para cada archivo CSV generado. El formato de uso es:
-   ```bash
-   python generar_tabla.py <archivo_csv> <imagen_salida>
-   ```
-   Ejemplo:
-   ```bash
-   python generar_tabla.py tabla.csv tabla_paso_1.png
-   ```
-
-### Nota:
-
-Si deseas automatizar la generación de imágenes, puedes crear un script de shell o batch que recorra los archivos CSV y ejecute el comando anterior para cada archivo.
-
+   - El main.cpp ejecuta el script de Python para cada archivo CSV generado. El archivo `.py` genera Imágenes de Tablas con `pandas` y `matplotlib`
 ## Consideraciones Importantes
 
 - **Compatibilidad del Sistema Operativo**: Asegúrate de que el comando para abrir las imágenes (`system`) en el archivo C++ está correctamente configurado según tu sistema operativo (`Windows`, `MacOS`, o `Linux`).
